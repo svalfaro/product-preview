@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.9em;
+  line-height: 18pt;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  background-color: hsl(0, 0%, 100%);
+  height: 500px;
+  width: 250px;
+  padding: 50px;
+}
+
+.heading-tag {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  color: black;
+  font-size: 2.5em;
+  line-height: 26pt;
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
