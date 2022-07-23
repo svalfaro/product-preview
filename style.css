@@ -1,3 +1,98 @@
+@media screen and (min-width: 375px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8em;
+    line-height: 15pt;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .main-box {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 80px auto 10px;
+    width: 325px;
+    height: 650px; /*will depend on the hand of it's children */
+  }
+
+  .img-box {
+    /* background-color: hsl(0, 0%, 100%); */
+    background-color: dodgerblue;
+    height: 235px;
+    width: 100%;
+    position: relative;
+    top: -108px;
+  }
+
+  .main-content {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    padding: 35px;
+    width: 80%;
+  }
+
+  .heading-tag {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px;
+  }
+
+  h1,
+  .price {
+    font-family: "Fraunces", serif;
+    color: black;
+    font-size: 2.5em;
+    line-height: 26pt;
+  }
+
+  .price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5em;
+  }
+
+  .old-price {
+    font-size: 1em;
+    padding: 20px 20px;
+    text-decoration: line-through;
+  }
+
+  .btn-add-to-cart {
+    background-color: hsl(158, 36%, 37%); /* Green */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    color: white;
+    padding: 13px 80px;
+    text-align: center;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+  }
+
+  .btn-add-to-cart:hover {
+    background-color: hsl(158, 36%, 27%);
+  }
+}
+
 @media screen and (min-width: 1440px) {
   body {
     background-color: hsl(30, 38%, 92%);
@@ -19,6 +114,7 @@
 
   .main-box {
     display: flex;
+    flex-direction: row;
     /* justify-content: center; */
     align-items: center;
     background-color: hsl(0, 0%, 100%);
@@ -43,14 +139,18 @@
 
   .img-box {
     background-color: hsl(0, 0%, 100%);
+    position: relative;
     height: 450px;
     width: 50%;
+    top: 0px;
   }
 
   .main-content {
     background-color: hsl(0, 0%, 100%);
+    padding: 20px;
     height: auto;
     width: 45%;
+    top: 0;
   }
 
   .heading-tag {
@@ -64,82 +164,39 @@
   .price {
     font-family: "Fraunces", serif;
     color: black;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 26pt;
+  }
+
+  .price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5em;
+  }
+
+  .old-price {
+    font-size: 1em;
+    padding: 20px 20px;
+    text-decoration: line-through;
+  }
+
+  .btn-add-to-cart {
+    background-color: hsl(158, 36%, 37%); /* Green */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    color: white;
+    padding: 13px 70px;
+    text-align: center;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+  }
+
+  .btn-add-to-cart:hover {
+    background-color: hsl(158, 36%, 27%);
   }
 }
 
-.price {
-  color: hsl(158, 36%, 37%);
-  font-size: 2.5em;
-}
-
-.old-price {
-  font-size: 1em;
-  padding: 20px 20px;
-  text-decoration: line-through;
-}
-
-.btn-add-to-cart {
-  background-color: hsl(158, 36%, 37%); /* Green */
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1em;
-  border: none;
-  color: white;
-  padding: 13px 70px;
-  text-align: center;
-  margin: 20px 2px;
-  cursor: pointer;
-  border-radius: 7px;
-  transition-duration: 0.4s;
-}
-
-.btn-add-to-cart:hover {
-  background-color: hsl(158, 36%, 27%);
-}
-
-/* .add-to-cart {
-  background-color: hsl(158, 36%, 37%);
-  color: hsl(0, 0%, 100%);
-  font-size: 0.8em;
-  border-radius: 5px;
-  padding: 13px;
-  margin-left: 50px;
-} */
-
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700 */
+/* @media screen and (min-width: 375px) */
