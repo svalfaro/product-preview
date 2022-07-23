@@ -1,23 +1,16 @@
-# Product Preview
+# **Product Preview Card**
 
 <!-- ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg) -->
 
-## The challenge
+## **Solution**
 
-Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-
-## Solution
+---
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
-## Table of contents
+## **Table of contents**
+
+---
 
 - [Overview](#overview)
   - [Author](#author)
@@ -28,67 +21,53 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 
-## Overview
+## **Overview**
 
-### Author
+---
 
-<!-- - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
+### **Author**
 
-### The challenge
+- Sheila Alfaro, Dev. Connect with me at [LinkedIn](https://www.linkedin.com/in/sheila-alfaro-2017a3193/)!
 
-<!-- Users should be able to:
+### **The challenge**
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements -->
+Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
-### Screenshot
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-<!-- ![](./screenshot.jpg) -->
+Your users should be able to:
 
-<!-- Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+- [x] View the optimal layout depending on their device's screen size
+- [x] See hover and focus states for interactive elements
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+### **Screenshot**
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
+- [ - Desktop View - ]
+  <img width="829" alt="Desktop view of the website" src="https://user-images.githubusercontent.com/37648600/180622610-c80a4ad5-3f2b-4f3f-b436-5680806bdafd.png">
 
-### Links
+- [ - Mobile View - ]
+  <img width="829" alt="Mobile view of the website" src="https://user-images.githubusercontent.com/37648600/180622640-eb1929ef-3c98-41f4-9d25-a6ad4235896c.png">
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+### **Links**
 
-## My process
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/mobile-and-desktop-views-UxgF2_cBMa)
+- Live Site URL: [Netfly](https://stellar-axolotl-8870a1.netlify.app/)
 
-### Built with
+## **My process**
 
-### What I learned
+---
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### **Built with**
 
-To see how you can add code snippets, see below:
+- HTML, CSS.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-``` -->
+### **What I learned**
 
-### Continued development
+- The nuances creating for both mobile and desktop using @media queries. Moreover, recognizing the hierarchies within different properties in CSS.
 
-<!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
+- Had the opportunity to practice Flexbox with real-world examples.
 
-### Useful resources
+### **Continued development**
 
-<!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+- A more interactive interface; to have 'Add to Cart' active and usable, displaying the changes count. What if certain product is currently out of stock? Display the different sizes of the same bottle available.
