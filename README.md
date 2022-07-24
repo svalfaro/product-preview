@@ -1,7 +1,5 @@
 # **Product Preview Card**
 
-<!-- ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg) -->
-
 ## **Solution**
 
 ---
@@ -51,8 +49,8 @@ Your users should be able to:
 
 ### **Links**
 
-- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/mobile-and-desktop-views-UxgF2_cBMa)
-- Live Site URL: [Netfly](https://stellar-axolotl-8870a1.netlify.app/)
+- [x] Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/mobile-and-desktop-views-UxgF2_cBMa)
+- [x] Live Site URL: [Netfly](https://stellar-axolotl-8870a1.netlify.app/)
 
 ## **My process**
 
