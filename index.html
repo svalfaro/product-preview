@@ -29,37 +29,39 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <div class="main-box">
-      <div class="img-box">
-        <img
-          src="images/image-product-desktop.jpg"
-          width="325"
-          height="450"
-          alt="Bottle of CHANEL perfume"
-        />
+    <main role="main">
+      <div class="main-box">
+        <div class="img-box">
+          <img
+            src="images/image-product-desktop.jpg"
+            width="325"
+            height="450"
+            alt="Bottle of CHANEL perfume"
+          />
+        </div>
+        <div class="main-content">
+          <span class="heading-tag">PERFUME</span>
+          <h1>Gabrielle <br />Essence Eau <br />De Parfum</h1>
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+          <p>
+            <span class="price">$149.99</span>
+            <span class="old-price">$169.99</span>
+          </p>
+          <p>
+            <button class="btn-add-to-cart">
+              <img src="images/icon-cart.svg" alt="cart logo" />
+              Add to Cart
+            </button>
+          </p>
+        </div>
       </div>
-      <div class="main-content">
-        <span class="heading-tag">PERFUME</span>
-        <h1>Gabrielle <br />Essence Eau <br />De Parfum</h1>
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-        <p>
-          <span class="price">$149.99</span>
-          <span class="old-price">$169.99</span>
-        </p>
-        <p>
-          <button class="btn-add-to-cart">
-            <img src="images/icon-cart.svg" alt="cart logo" />
-            Add to Cart
-          </button>
-        </p>
-      </div>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer role="contact" class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="mailto:sheilavalfaro@gmail.com">Sheila Alfaro</a>.
-    </div>
+    </footer>
   </body>
 </html>
